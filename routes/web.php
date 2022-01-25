@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\MailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +12,24 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/mail', [MailController::class, 'getMail']);
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('blog.index');
+})->name('inicio');
+
+Route::get('/contacto', function () {
+    return view('blog.contact');
+})->name('contacto');
+
+Route::get('/programar', function () {
+    return view('blog.programar');
+})->name('programar');
+
+Route::get('/crash', function () {
+    return view('blog.crash');
+})->name('crash');
+
+Route::get('/blur', function () {
+    return view('blog.blur');
+})->name('blur');
