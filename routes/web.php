@@ -12,7 +12,7 @@ use App\Http\Controllers\MailController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/mail', [MailController::class, 'getMail']);
+Route::post('/mail', [MailController::class, 'getMail']);
 
 Route::get('/', function () {
     return view('blog.index');

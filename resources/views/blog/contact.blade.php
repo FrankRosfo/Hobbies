@@ -97,7 +97,8 @@ https://templatemo.com/tm-551-stand-blog
                       <h2>Envia un mensaje</h2>
                     </div>
                     <div class="content">
-                      <form id="contact" action="MailController" method="post">
+                      <form action="/mail" method="post">
+                        @csrf
                         <div class="row">
                           <div class="col-md-6 col-sm-12">
                             <fieldset>
@@ -106,7 +107,7 @@ https://templatemo.com/tm-551-stand-blog
                           </div>
                           <div class="col-md-6 col-sm-12">
                             <fieldset>
-                              <input name="subject" type="text" id="subject" placeholder="correo">
+                              <input name="subject" type="text" id="subject" placeholder="Correo">
                             </fieldset>
                           </div>
                           <div class="col-lg-12">
@@ -116,7 +117,7 @@ https://templatemo.com/tm-551-stand-blog
                           </div>
                           <div class="col-lg-12">
                             <fieldset>
-                              <button><a type="submit" id="form-submit" class="main-button" href="/mail" target="_blank" >Enviar</a></button>
+                              <button type="submit" id="form-submit" class="main-button">Enviar</button>
                             </fieldset>
                           </div>
                         </div>
@@ -167,9 +168,9 @@ https://templatemo.com/tm-551-stand-blog
         <div class="row">
           <div class="col-lg-12">
             <ul class="social-icons">
-              <li><a href="#">Facebook</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100064101466027">Facebook</a></li>
               <li><a href="#">Twitter</a></li>
-              <li><a href="#">Instagram</a></li>
+              <li><a href="https://instagram.com/frankrosfo?utm_medium=copy_link">Instagram</a></li>
             </ul>
           </div>
           <div class="col-lg-12">
