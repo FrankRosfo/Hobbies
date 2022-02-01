@@ -70,18 +70,6 @@ https://templatemo.com/tm-551-stand-blog
       <div class="container-fluid">
         <div class="owl-banner owl-carousel">
           <div class="item">
-            <img src="assets/images/Image1.jpg" alt="">
-            <div class="item-content">
-              <div class="main-content">
-                <div class="meta-category">
-                  <span>Programar</span>
-                </div>
-                <a href="programar"><h4>Programar es amar y llorar</h4></a>
-                <ul class="post-info"></ul>
-              </div>
-            </div>
-          </div>
-          <div class="item">
             <img src="assets/images/Image2.jpg" alt="">
             <div class="item-content">
               <div class="main-content">
@@ -89,6 +77,18 @@ https://templatemo.com/tm-551-stand-blog
                   <span>Crash Team Racing</span>
                 </div>
                 <a href="crash"><h4>Un clasico de los videojuegos</h4></a>
+                <ul class="post-info"></ul>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/Image1.jpg" alt="">
+            <div class="item-content">
+              <div class="main-content">
+                <div class="meta-category">
+                  <span>Programar</span>
+                </div>
+                <a href="programar"><h4>Programar es amar y llorar</h4></a>
                 <ul class="post-info"></ul>
               </div>
             </div>
@@ -112,7 +112,7 @@ https://templatemo.com/tm-551-stand-blog
                 <div class="meta-category">
                   <span>Unite</span>
                 </div>
-                <a href="post-details.html"><h4>Pasar el tiempo con amigos</h4></a>
+                <a><h4>Pasar el tiempo con amigos</h4></a>
                 <ul class="post-info"></ul>
               </div>
             </div>
@@ -124,7 +124,7 @@ https://templatemo.com/tm-551-stand-blog
                 <div class="meta-category">
                   <span>Musica</span>
                 </div>
-                <a href="post-details.html"><h4>Aprender a tocar el piano</h4></a>
+                <a><h4>Aprender a tocar el piano</h4></a>
                 <ul class="post-info"></ul>
               </div>
             </div>
@@ -136,7 +136,7 @@ https://templatemo.com/tm-551-stand-blog
                 <div class="meta-category">
                   <span>Rubik</span>
                 </div>
-                <a href="post-details.html"><h4>F2L y PLL</h4></a>
+                <a><h4>F2L y PLL</h4></a>
                 <ul class="post-info"></ul>
               </div>
             </div>
